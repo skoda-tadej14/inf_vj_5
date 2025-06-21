@@ -1,0 +1,50 @@
+
+body{
+    background-image:url("Pozadina/pozadina.jpg");
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; 
+}
+h1 {
+    font-size: 65px; 
+	text-align: center;
+    padding:80px; 
+    margin-left: auto; 
+	margin-right:auto; 
+	width: 310px;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:bisque;
+    background-color:rgba(191,130,15,0.60);
+    padding:20px;
+}
+p {
+	font-size: 20px;
+	text-align: center;
+	font-family:"Fira Sans", serif;
+	padding:10px; 
+    margin-left: auto; 
+	margin-right:auto; 
+	width: 900px;
+	color:darkolivegreen;
+}
+ul.nav	{	
+		padding:20px; 
+		margin-left: auto; 
+		margin-right:auto; 
+		width:390px;
+			} 
+ul.nav li {	
+		 display:inline; 
+		 background-color:#784630 ;
+		 padding:20px;
+		 border: 2px solid #462D2A;
+		 }
+ul.nav li:active {background-color:#145A32;}
+ul.nav li a {color:antiquewhite;  
+			font-family: "CabinSketch", sans-serif; 
+			text-transform: uppercase;
+			}	
+ul.nav li a:link {text-decoration:none;}
+ul.nav li a:hover {	text-decoration:underline;}
